@@ -1,6 +1,8 @@
 * {
-  padding: 0px;
   margin: 0px;
+  padding: 0px;
+  border: 0px;
+  box-sizing: border-box;
 }
 
 .bg-cor1 {
@@ -35,6 +37,10 @@
   color: #e9c46a;
 }
 
+.text-cor4 {
+  color: #f4a261;
+}
+
 .text-cor5 {
   color: #e76f51;
 }
@@ -60,87 +66,18 @@
 }
 
 
-/* foto de fundo parallax */
+/* foto de fundo efeito parallax */
 #bg-quote {
   background-image: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .8)), url(assets/background002.jpg);
   background-position: center center;
   background-size: cover;
-  background-attachment: fixed;
-
 }
 
-
-
-
-
-
-
-
-.parallax {
-  background-image: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .8)), url(assets/background002.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 100vh;
-}
-
-.parallax-element {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #fff;
-  background-attachment: fixed;
-
-}
-
-.parallax-element-1 {
-  background-image: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .8)), url(assets/background002.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: 1;
-  background-attachment: fixed;
-
-}
-
-.parallax-element-2 {
-  background-image: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .8)), url(assets/background002.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: 2;
-  background-attachment: fixed;
-
-}
-
-@media (max-width: 768px) {
-  .parallax {
-    height: 50vh;
-  }
-
-  .parallax-element {
-    width: 50%;
-  }
-
-  .parallax-element-1 {
-    z-index: 1;
-  }
-
-  .parallax-element-2 {
-    z-index: 2;
+@media (min-width: 400px) {
+  #bg-quote {
+    background-attachment: fixed;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /*Footer*/
 .redesocial a {
@@ -157,27 +94,6 @@
   transition-duration: 0.3s;
 }
 
-.redesocial #gmail i:hover {
-  color: #c71610;
-}
-
-.redesocial #linkedin i:hover {
-  color: #0e76a8;
-}
-
-.redesocial #github i:hover {
-  color: #fff;
-}
-
-.redesocial #whatsapp i:hover {
-  color: #25d366;
-}
-
-/*Footer*/
-#copyButton {
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  cursor: pointer;
+.redesocial i:hover {
+  color: #e9c46a;
 }
