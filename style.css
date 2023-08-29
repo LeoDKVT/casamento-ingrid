@@ -60,7 +60,7 @@
 }
 
 
-/* foto de fundo da pagina contato.html */
+/* foto de fundo parallax */
 #bg-quote {
   background-image: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .8)), url(assets/background002.jpg);
   background-position: center center;
@@ -68,6 +68,79 @@
   background-attachment: fixed;
 
 }
+
+
+
+
+
+
+
+
+.parallax {
+  background-image: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .8)), url(assets/background002.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.parallax-element {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  background-attachment: fixed;
+
+}
+
+.parallax-element-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .8)), url(assets/background002.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+  background-attachment: fixed;
+
+}
+
+.parallax-element-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .8)), url(assets/background002.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 2;
+  background-attachment: fixed;
+
+}
+
+@media (max-width: 768px) {
+  .parallax {
+    height: 50vh;
+  }
+
+  .parallax-element {
+    width: 50%;
+  }
+
+  .parallax-element-1 {
+    z-index: 1;
+  }
+
+  .parallax-element-2 {
+    z-index: 2;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /*Footer*/
 .redesocial a {
