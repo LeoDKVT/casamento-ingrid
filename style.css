@@ -1,68 +1,110 @@
 * {
-    padding: 0px;
-    margin: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.bg-cor1 {
+  background-color: #264653;
+}
+
+.bg-cor2 {
+  background-color: #2a9d8f;
+}
+
+.bg-cor3 {
+  background-color: #e9c46a;
+}
+
+.bg-cor4 {
+  background-color: #f4a261;
+}
+
+.bg-cor5 {
+  background-color: #e76f51;
+}
+
+.text-cor1 {
+  color: #264653;
+}
+
+.text-cor2 {
+  color: #2a9d8f;
+}
+
+.text-cor3 {
+  color: #e9c46a;
+}
+
+.text-cor5 {
+  color: #e76f51;
+}
+
+.degrade {
+  background-image: linear-gradient(to right, #2a9d8f, #e76f51);
+  color: black;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.degrade2 {
+  background-image: linear-gradient(to bottom, #e9c46a, #e76f51);
+  color: black;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.teste {
+  background-image: linear-gradient(to top, #e76f51, #e9c46a);
 }
 
 
-.cont {
-    color: white;
-    background-color: rgba(0, 0, 0, 0.500);
-    font-size: 26px;
-    line-height: 2em;
-    width: 345px;
+/* foto de fundo da pagina contato.html */
+#bg-quote {
+  background-image: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .8)), url(assets/background002.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+
 }
-
-
-section.seg {
-    height: 400px;
-    background-image: url(assets/background002.jpg);
-    background-position: center center;
-    background-size: 100% 100%;
-    background-attachment: fixed;
-    padding-top: 30px;
-    padding-bottom: 100px;
-}
-
-
 
 /*Footer*/
 .redesocial a {
-    text-decoration: none;
-  }
-  
-  .redesocial #whatsapp {
-    margin-right: 0px;
-  }
-  
-  .redesocial i {
-    color: #63084D;
-    font-size: 40px;
-    transition-duration: 0.3s;
-  }
-  
-  .redesocial #gmail i:hover {
-    color: #c71610;
-  }
-  
-  .redesocial #linkedin i:hover {
-    color: #0e76a8;
-  }
-  
-  .redesocial #github i:hover {
-    color: #fff;
-  }
-  
-  .redesocial #whatsapp i:hover {
-    color: #25D366;
-  }
-  
+  text-decoration: none;
+}
 
+.redesocial #whatsapp {
+  margin-right: 0px;
+}
+
+.redesocial i {
+  color: #e76f51;
+  font-size: 40px;
+  transition-duration: 0.3s;
+}
+
+.redesocial #gmail i:hover {
+  color: #c71610;
+}
+
+.redesocial #linkedin i:hover {
+  color: #0e76a8;
+}
+
+.redesocial #github i:hover {
+  color: #fff;
+}
+
+.redesocial #whatsapp i:hover {
+  color: #25d366;
+}
 
 /*Footer*/
 #copyButton {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    cursor: pointer;
-  }
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
